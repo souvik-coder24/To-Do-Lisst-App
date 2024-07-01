@@ -57,3 +57,45 @@ body{
     font-size: 20px;
     cursor: pointer;
 }
+
+ul li{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    list-style: none;
+    font-size: 20px;
+    padding: 12px 8px 12px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    border: 2px solid white;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li p{
+    flex-grow: 1;
+    padding: 2px;
+}
+
+.editBtn{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(22, 219, 22);
+    margin-right: 16px;
+}
+.deleteBtn{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(237, 8, 31);
+}
